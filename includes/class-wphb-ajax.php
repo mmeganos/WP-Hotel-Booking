@@ -240,7 +240,7 @@ class WPHB_Ajax {
 				'message' => __( 'Can not select zero room.', 'wp-hotel-booking' )
 			) );
 		} else {
-			$qty = absint( sanitize_text_field( sanitize_text_field( $_POST['hb-num-of-rooms'] ) ) );
+			$qty = absint( sanitize_text_field( $_POST['hb-num-of-rooms'] ) );
 		}
 
 		// validate checkin, checkout date
